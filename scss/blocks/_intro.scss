@@ -1,0 +1,62 @@
+.intro {
+  width: 100%;
+
+  &__wrapper {
+    background-image: url(../../images/Bitmap.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+  
+  }
+
+
+  &__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+    height: 145px;
+    width: 496px;
+    margin-left: 86px;
+  
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    width: 445px;
+    margin-left: 86px;
+  }
+  &__button {
+    width: 217px;
+    height: 56px;
+    background-color: $main-bg-green;
+    border-radius: 10px;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 86px;
+    margin-top: 56px;
+
+    &__name {
+      font-family: "Fraunces";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: #fefcf7;
+    }
+  }
+}
